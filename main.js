@@ -27,13 +27,15 @@ using JQuery and a library called JQuery Terminal. This library allows me to
 turn a <div> element into a "terminal". When you input a command, it is sent to
 a switch statement that decides what to do.
 
-The library can be found at the following URL: http://terminal.jcubic.pl
-And of course, the Github repo for this site can be found at this one: https://github.com/HunterConnelly/hunterconnelly.com
+The library can be found at the following URL: 
+http://terminal.jcubic.pl
+And of course, the Github repo for this site can be found at this one: 
+https://github.com/HunterConnelly/hunterconnelly.com
 `
 
 var exitText = `
-You can't actually exit this terminal because JavaScript can't close windows (or
-tabs) that it didn't create. Sorry about that.
+You can't actually exit this terminal because JavaScript can't close windows 
+(or tabs) that it didn't create. Sorry about that.
 `
 
 $(function(){
