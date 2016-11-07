@@ -4,6 +4,8 @@ body {
     margin-top: 0;
     margin-bottom: 0;
     max-height: 100vh;
+    background-image: url("bg.png");
+    background-repeat: repeat;
 }
 
 #mainBody, #term, .cmd {
