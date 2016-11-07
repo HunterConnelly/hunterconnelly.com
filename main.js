@@ -9,6 +9,8 @@ Command      Usage
 help:        Displays this message
 explain.sh:  Explains what exactly you're seeing right now
 contact.pl:  Prints my contact information to the terminal
+reddit.py:   Redirects to /r/all
+github.rb:   Redirects to Github
 exit:        Exits the terminal
 clear:       Clears all text from the terminal
 `
@@ -49,6 +51,12 @@ $(function(){
 	case "explain.sh":
 	    term.echo(explainText)
 	    break;
+	case "reddit.py":
+	    window.location = "https://reddit.com/r/all";
+	    break;
+	case "github.rb":
+	    window.location = "https://github.com";
+	    break;
 	case "exit":
 	    term.echo(exitText)
 	    break;
@@ -65,7 +73,7 @@ $(function(){
 	greetings: motd,
 	prompt: "root@localhost:~$ ",
 	scrollOnEcho: true,
-	completion: ["help","contact.pl","explain.sh","exit"],
+	completion: ["help","contact.pl","explain.sh","reddit.py","github.rb","exit"],
 	exit: false
     });
 });
