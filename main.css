@@ -1,0 +1,40 @@
+body {
+    color: #d7d7d7; 
+    background: #1c1c1c; 
+    margin-top: 0;
+    margin-bottom: 0;
+    max-height: 100vh;
+}
+
+#mainBody, #term, .cmd {
+    color: #d7d7d7; 
+    background: #000000; 
+    font-family: monospace;
+}
+
+#mainBody {
+    width: 800px;
+    height: 100vh;
+    box-shadow: 0 0 20pt #000000;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#term {
+    max-height: 98%;
+}
+
+.command {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+@media screen and (max-width: 800px) {
+    #mainBody {
+	width: 100%;
+	margin: 0;
+    }
+    body {
+	margin: 0;
+    }
+}
