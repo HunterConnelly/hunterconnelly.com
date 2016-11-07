@@ -1,4 +1,3 @@
-# hunterconnelly.github.io
-## AKA hunterconnelly.com
+# hunterconnelly.com
 
 An interactive webpage that works like a terminal!
