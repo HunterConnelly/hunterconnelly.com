@@ -28,6 +28,7 @@ turn a <div> element into a "terminal". When you input a command, it is sent to
 a switch statement that decides what to do.
 
 The library can be found at the following URL: http://terminal.jcubic.pl
+And of course, the Github repo for this site can be found at this one: https://github.com/HunterConnelly/hunterconnelly.com
 `
 
 var exitText = `
