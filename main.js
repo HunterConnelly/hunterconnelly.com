@@ -1,41 +1,41 @@
-var motd = "\
-Welcome to hunterconnelly.com!\
-Type \"help\" to see a list of available commands\
+var motd = "\n\
+Welcome to hunterconnelly.com!\n\
+Type \"help\" to see a list of available commands\n\
 "
 
-var helpText = "\
-Command      Usage\
-================================================================================\
-help:        Displays this message\
-explain.sh:  Explains what exactly you're seeing right now\
-contact.pl:  Prints my contact information to the terminal\
-reddit.py:   Redirects to /r/all\
-github.rb:   Redirects to Github\
-exit:        Exits the terminal\
-clear:       Clears all text from the terminal\
+var helpText = "\n\
+Command      Usage\n\
+================================================================================\n\
+help:        Displays this message\n\
+explain.sh:  Explains what exactly you're seeing right now\n\
+contact.pl:  Prints my contact information to the terminal\n\
+reddit.py:   Redirects to /r/all\n\
+github.rb:   Redirects to Github\n\
+exit:        Exits the terminal\n\
+clear:       Clears all text from the terminal\n\
 "
 
-var contactText = "\
-Name:   Hunter Connelly\
-Email:  hunterconnelly@hunterconnelly.com\
-Phone:  407-451-1421\
+var contactText = "\n\
+Name:   Hunter Connelly\n\
+Email:  hunterconnelly@hunterconnelly.com\n\
+Phone:  407-451-1421\n\
 "
 
-var explainText = "\
-This is an interactive webpage that works like a terminal emulator! I made this\
-using JQuery and a library called JQuery Terminal. This library allows me to\
-turn a <div> element into a \"terminal\". When you input a command, it is sent to\
-a switch statement that decides what to do.\
-\
-The library can be found at the following URL:\
-http://terminal.jcubic.pl\
-And of course, the Github repo for this site can be found at this one:\
-https://github.com/HunterConnelly/hunterconnelly.com\
+var explainText = "\n\
+This is an interactive webpage that works like a terminal emulator! I made this\n\
+using JQuery and a library called JQuery Terminal. This library allows me to\n\
+turn a <div> element into a \"terminal\". When you input a command, it is sent to\n\
+a switch statement that decides what to do.\n\
+\n\
+The library can be found at the following URL:\n\
+http://terminal.jcubic.pl\n\
+And of course, the Github repo for this site can be found at this one:\n\
+https://github.com/HunterConnelly/hunterconnelly.com\n\
 "
 
-var exitText = "\
-You can't actually exit this terminal because JavaScript can't close windows\
-(or tabs) that it didn't create. Sorry about that.\
+var exitText = "\n\
+You can't actually exit this terminal because JavaScript can't close windows\n\
+(or tabs) that it didn't create. Sorry about that.\n\
 "
 
 $(function(){
